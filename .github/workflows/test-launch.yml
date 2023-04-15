@@ -1,8 +1,0 @@
-name: test-launch
-on: [push]
-jobs:
-  test-launch:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - run: ls

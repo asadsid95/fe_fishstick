@@ -5,5 +5,21 @@
 }
 
 body {
-    background-color: grey;
+    background-color: lightgrey;
+    color: white;
+    font-size: 14px;
+}
+
+.landing {
+    padding-top: 200px;
+    padding-bottom: 400px;
+    background-image: url('../assets/Sidrah+image-01.png');
+
+}
+
+.intro {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    text-align: center;
 }
