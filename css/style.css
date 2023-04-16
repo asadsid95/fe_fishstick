@@ -4,15 +4,33 @@
     box-sizing: border-box;
 }
 
+html {
+    background-attachment: scroll;
+}
+
 body {
     background-color: lightgrey;
     color: white;
     font-size: 14px;
 }
 
+.nav-header {
+    position: absolute;
+    right: auto;
+    left: auto;
+    border: 2px red solid;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-header a {
+    text-decoration: none;
+    color: white;
+}
+
 .landing {
-    padding-top: 200px;
-    padding-bottom: 400px;
+    width: 100%;
+    height: auto;
     background-image: url('../assets/Sidrah+image-01.png');
 
 }
@@ -22,4 +40,78 @@ body {
     margin-right: auto;
     max-width: 1200px;
     text-align: center;
+}
+
+.title {
+    /* border: 2px red solid; */
+    padding-top: 100px;
+    font-size: 200px;
+}
+
+.description {
+    font-size: 50px;
+    padding: 50px 0
+}
+
+.carousel {
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    /* background-color: darkgray; */
+}
+
+.logo-latest {
+    width: 150px;
+    position: absolute;
+    top: -30px;
+    right: auto;
+    left: 300px;
+    margin-left: 5%;
+    z-index: 2;
+
+}
+
+.project-images {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.project-img {
+    max-width: 375px;
+    max-height: 375px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.project-img:hover {
+    scale: 1.2;
+}
+
+.brands-marquee {
+    background-color: black;
+    width: 100%;
+    padding: 60px 0px;
+    margin: 40px 0;
+    overflow: hidden;
+}
+
+.marquee {
+    display: flex;
+    width: 150%
+}
+
+.brands-set-1 {
+    display: flex;
+    align-items: center;
+}
+
+.brands-set-1 img {
+    margin: 0 1vw;
+}
+
+.brands-set-2 img {
+    margin: 0 1vw;
 }
